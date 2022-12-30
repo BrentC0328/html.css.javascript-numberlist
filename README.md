@@ -1,31 +1,27 @@
 # Project Title
-
-* **Objective** - To create a product...
-* **Purpose** - To gain familiarity the following features...
+* **Purpose** - To gain familiarity with loops
 
 
 
 
 ## Objective
-
-#### Part 1 - ...
 * The NumberList class is a class that represents a list of numbers. It has three methods: sum, product, and average.
 
 * **Method Definitions**
   * The `sum` method calculates the sum of all of the numbers in the list.
     * `sum(): number`
-    * Parameters: None
-    * Return Value: The sum of all of the numbers in the list.
+      * Parameters: None
+      * Return Value: The sum of all of the numbers in the list.
 
   * The `product` method calculates the product of all of the numbers in the list.
     * `product(): number`
-    * Parameters: None
-    * Return Value: The product of all of the numbers in the list.
+      * Parameters: None
+      * Return Value: The product of all of the numbers in the list.
 
   * The average method calculates the average of all of the numbers in the list.
     * `average(): number`
-    * Parameters: None
-    * Return Value: The average of all of the numbers in the list.
+      * Parameters: None
+      * Return Value: The average of all of the numbers in the list.
 
 * **Testing**
 * The NumberList class has several test cases to ensure that it is working correctly.

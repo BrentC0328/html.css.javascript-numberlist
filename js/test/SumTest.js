@@ -5,7 +5,7 @@ class SumTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = 15;
   
-      test(expectedOutput, numberList.sum, numbers);
+      test(expectedOutput, numberList, numberList.sum, numbers);
     }
   
     // Test method for summing up an array of negative integers
@@ -14,7 +14,7 @@ class SumTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = -15;
   
-      test(expectedOutput, numberList.sum, numbers);
+      test(expectedOutput, numberList, numberList.sum, numbers);
     }
   
     // Test method for summing up an array of positive and negative integers
@@ -23,7 +23,7 @@ class SumTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = 3;
   
-      test(expectedOutput, numberList.sum, numbers);
+      test(expectedOutput, numberList, numberList.sum, numbers);
     }
   }
   

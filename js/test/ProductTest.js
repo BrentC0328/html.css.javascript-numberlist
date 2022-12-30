@@ -5,7 +5,7 @@ class ProductTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = 120;
   
-      test(expectedOutput, numberList.product, numbers);
+      test(expectedOutput, numberList, numberList.product, numbers);
     }
   
     // Test method for calculating the product of an array of negative integers
@@ -14,7 +14,7 @@ class ProductTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = 120;
   
-      test(expectedOutput, numberList.product, numbers);
+      test(expectedOutput, numberList, numberList.product, numbers);
     }
   
     // Test method for calculating the product of an array of positive and negative integers
@@ -23,7 +23,7 @@ class ProductTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = -120;
   
-      test(expectedOutput, numberList.product, numbers);
+      test(expectedOutput, numberList, numberList.product, numbers);
     }
   }
   

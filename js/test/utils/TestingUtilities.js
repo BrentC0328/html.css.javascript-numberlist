@@ -17,9 +17,9 @@ function test(expectedOutput, invoker, func, ...args) {
 function testFunction(expectedOutput, func, ...args) {
   let output;
   try {
-    console.log(`Testing \`${func.name}\``);
-    output = func(...args);
+    console.log(`Testing \`${func.name}\``);    
   } catch(err){}
+  output = func(...args);
   console.log(`arguments: ${args}`);
   const pass = output === expectedOutput;
   console.log(`output = \n${output}`);

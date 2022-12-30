@@ -5,7 +5,7 @@ class AverageTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = 3;
   
-      test(expectedOutput, numberList.average, numbers);
+      test(expectedOutput, numberList, numberList.average, numbers);
     }
   
     // Test method for calculating the average of an array of negative integers
@@ -14,7 +14,7 @@ class AverageTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = -3;
   
-      test(expectedOutput, numberList.average, numbers);
+      test(expectedOutput, numberList, numberList.average, numbers);
     }
   
     // Test method for calculating the average of an array of positive and negative integers
@@ -23,7 +23,7 @@ class AverageTest {
       const numberList = new NumberList(numbers);
       const expectedOutput = 0;
   
-      test(expectedOutput, numberList.average, numbers);
+      test(expectedOutput, numberList, numberList.average, numbers);
     }
   }
   

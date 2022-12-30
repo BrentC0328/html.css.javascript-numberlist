@@ -1,4 +1,4 @@
-# Project Title
+# Number List
 * **Purpose** - To gain familiarity with loops
 
 
